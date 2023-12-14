@@ -71,7 +71,10 @@ output_file = sys.argv[2]
 root = os.path.dirname(os.path.abspath(__file__))
 # load pre-trained model
 model_path= os.path.abspath(os.path.join(root,"..", "..","checkpoints", "XGBoost_Morgan2.m"))
+<<<<<<< HEAD
 #model_path = '/home/richiio/eos1n4b-main/model/checkpoints/XGBoost_Morgan2.m'
+=======
+>>>>>>> 7bb8a258449149e67824c4e00a0fceaabdf16963
 model_pre = joblib.load(model_path)
 
 # predict bioactivity and save results
