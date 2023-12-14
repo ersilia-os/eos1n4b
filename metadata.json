@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos1n4b",
+    "Slug": "Anticancer-agents",
+    "Status": "In progress",
+    "Title": "Identifying HDAC3 inhibitors",
+    "Description": "A model trained with XGBoost as the algorithm and Morgan2 fingerprints for features. It predicts HDAC3 inhibitors present in a given compound returning Active and Not Active depending on the activity.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,11 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Cancer",
+        "ChemBL"
+    ],
+    "Publication": "https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105",
+    "Source Code": "https://github.com/jwxia2014/HDAC3i-Finder",
+    "License": "GPL-3.0"
 }
