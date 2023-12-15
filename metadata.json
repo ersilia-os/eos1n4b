@@ -14,7 +14,7 @@
     "Interpretation": "Predicts the activity of a compound on HDAC3 and returns 0 or 1 representing Active and Inactive respectively",
     "Tag": [
         "Cancer",
-        "ChemBL"
+        "ChEMBL"
     ],
     "Publication": "https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105",
     "Source Code": "https://github.com/jwxia2014/HDAC3i-Finder",
