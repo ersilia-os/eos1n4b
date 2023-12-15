@@ -1,22 +1,35 @@
 {
     "Identifier": "eos1n4b",
-    "Slug": "Anticancer-agents",
+    "Slug": "anticancer-agents",
     "Status": "In progress",
     "Title": "Identifying HDAC3 inhibitors",
     "Description": "A model trained with XGBoost as the algorithm and Morgan2 fingerprints for features. It predicts HDAC3 inhibitors present in a given compound returning Active and Not Active depending on the activity.",
-    "Mode": "",
-    "Task": [],
-    "Input": [],
-    "Input Shape": "",
-    "Output": [],
-    "Output Type": [],
-    "Output Shape": "",
-    "Interpretation": "",
+    "Mode": "Pretrained",
+    "Task": [
+        "Classification"
+    ],
+    "Input": [
+        "Compound"
+    ],
+    "Input Shape": "Single",
+    "Output": [
+        "Score"
+    ],
+    "Output Type": [
+        "Float"
+    ],
+    "Output Shape": "Single",
+    "Interpretation": "Predicts the activity of a compound on HDAC3 and returns 0 or 1 representing Active and Inactive respectively",
     "Tag": [
         "Cancer",
-        "ChemBL"
+        "ChEMBL"
     ],
     "Publication": "https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105",
     "Source Code": "https://github.com/jwxia2014/HDAC3i-Finder",
-    "License": "GPL-3.0"
+    "License": "GPL-3.0",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1n4b",
+    "Docker Architecture": [
+        "AMD64"
+    ]
 }
