@@ -1,6 +1,6 @@
 # Identifying HDAC3 inhibitors
 
-A model trained with XGBoost as the algorithm and Morgan2 fingerprints for features. It predicts HDAC3 inhibitors present in a given compound returning Active and Not Active depending on the activity.
+The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3
 
 ## Identifiers
 
@@ -15,7 +15,7 @@ A model trained with XGBoost as the algorithm and Morgan2 fingerprints for featu
 * Output: `Score`
 * Output Type: `Float`
 * Output Shape: `Single`
-* Interpretation: Predicts the activity of a compound on HDAC3 and returns 0 or 1 representing Active and Inactive respectively
+* Interpretation: Probability that the molecule is a HDAC3 inhibitor
 
 ## References
 
