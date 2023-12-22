@@ -5,7 +5,7 @@ The model predicts the inhibitory potential of small molecules against Histone d
 ## Identifiers
 
 * EOS model ID: `eos1n4b`
-* Slug: `anticancer-agents`
+* Slug: `hdac3-inh`
 
 ## Characteristics
 

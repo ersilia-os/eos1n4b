@@ -1,6 +1,6 @@
 {
     "Identifier": "eos1n4b",
-    "Slug": "anticancer-agents",
+    "Slug": "hdac3-inh",
     "Status": "Ready",
     "Title": "Identifying HDAC3 inhibitors",
     "Description": "The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3",
