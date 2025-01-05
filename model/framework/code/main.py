@@ -6,11 +6,8 @@ import joblib
 import numpy as np
 import pandas as pd
 from rdkit import Chem
-from rdkit.Chem.Descriptors import MolWt
 from rdkit import Chem
 from rdkit.Chem import AllChem
-from rdkit.Chem import MolFromSmiles
-from rdkit.Chem.AllChem import GetMorganFingerprintAsBitVect
 
 # parse arguments
 input_file = sys.argv[1]
@@ -51,7 +48,6 @@ def my_model(smiles_list):
 
     return list_active # return the list of predicted probabilities(Outputs)
 
-
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
     reader = csv.reader(f)
@@ -69,6 +65,6 @@ assert input_len == output_len
 # write output in a .csv file (save result)
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["value"])  # header
+    writer.writerow(["hdac3_inhibition_probability"])  # header
     for o in outputs:
         writer.writerow([o])

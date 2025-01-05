@@ -1,0 +1,2 @@
+name,type,direction,description
+hdac3_inhibition_probability,float,high,Probability score of HDAC3 inhibition
