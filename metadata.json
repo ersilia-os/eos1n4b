@@ -3,21 +3,18 @@
     "Slug": "hdac3-inhibition",
     "Status": "Ready",
     "Title": "Identifying HDAC3 inhibitors",
-    "Description": "The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3.\n",
+    "Description": "The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "Cancer"
-    ],
-    "Target Organism": [
-        "Homo sapiens"
-    ],
     "Output": [
         "Score"
     ],
@@ -28,19 +25,24 @@
         "Cancer",
         "ChEMBL"
     ],
-    "Publication": "https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105",
+    "Biomedical Area": [
+        "Cancer"
+    ],
+    "Target Organism": [
+        "Homo sapiens"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2020,
+    "Publication": "https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105",
     "Source Code": "https://github.com/jwxia2014/HDAC3i-Finder",
     "License": "GPL-3.0-only",
     "Contributor": "Richiio",
     "Incorporation Date": "2023-12-14",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1n4b",
     "Docker Architecture": [
         "AMD64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 1.0,
+    "Environment Size": 866.0
 }
