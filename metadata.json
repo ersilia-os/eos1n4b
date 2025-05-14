@@ -1,35 +1,46 @@
 {
     "Identifier": "eos1n4b",
-    "Slug": "hdac3-inh",
+    "Slug": "hdac3-inhibition",
     "Status": "Ready",
     "Title": "Identifying HDAC3 inhibitors",
-    "Description": "The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3",
-    "Mode": "Pretrained",
-    "Task": [
-        "Classification"
-    ],
+    "Description": "The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3.\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
+    "Input Dimension": 1,
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
+    "Biomedical Area": [
+        "Cancer"
+    ],
+    "Target Organism": [
+        "Homo sapiens"
+    ],
     "Output": [
         "Score"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "Single",
+    "Output Dimension": 1,
+    "Output Consistency": "Fixed",
     "Interpretation": "Probability that the molecule is a HDAC3 inhibitor",
     "Tag": [
         "Cancer",
         "ChEMBL"
     ],
     "Publication": "https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2020,
     "Source Code": "https://github.com/jwxia2014/HDAC3i-Finder",
-    "License": "GPL-3.0",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
+    "License": "GPL-3.0-only",
+    "Contributor": "Richiio",
+    "Incorporation Date": "2023-12-14",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1n4b",
     "Docker Architecture": [
         "AMD64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
+    "Deployment": [
+        "Local"
     ]
 }
