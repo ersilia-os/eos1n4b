@@ -41,8 +41,15 @@
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1n4b",
     "Docker Architecture": [
-        "AMD64"
+        "AMD64",
+        "ARM64"
     ],
     "Model Size": 1.0,
-    "Environment Size": 984.0
+    "Environment Size": 984.0,
+    "Image Size": 967.54,
+    "Computational Performance 1": 30.98,
+    "Computational Performance 2": 20.67,
+    "Computational Performance 3": 20.86,
+    "Computational Performance 4": 69.69,
+    "Computational Performance 5": 293.08
 }
