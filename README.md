@@ -35,13 +35,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos1n4b](https://hub.docker.com/r/ersiliaos/eos1n4b)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `984`
+- **Image Size (Mb):** `967.54`
 
+**Computational Performance (seconds):**
+- 10 inputs: `30.98`
+- 100 inputs: `20.86`
+- 10000 inputs: `293.08`
 
 ### References
 - **Source Code**: [https://github.com/jwxia2014/HDAC3i-Finder](https://github.com/jwxia2014/HDAC3i-Finder)
