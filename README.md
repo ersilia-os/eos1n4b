@@ -48,7 +48,7 @@ Below are the **Output Columns** of the model:
 - **Publication**: [https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105](https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2020`
-- **Ersilia Contributor:** [Richiio](https://github.com/Richiio)
+- **Ersilia Contributor:** [Abellegese](https://github.com/Abellegese)
 
 ### License
 This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-only](LICENSE) license.
