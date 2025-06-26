@@ -36,7 +36,7 @@
     "Publication": "https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105",
     "Source Code": "https://github.com/jwxia2014/HDAC3i-Finder",
     "License": "GPL-3.0-only",
-    "Contributor": "Abellegese",
+    "Contributor": "Richiio",
     "Incorporation Date": "2023-12-14",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1n4b",
