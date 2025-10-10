@@ -4,6 +4,7 @@ The model predicts the inhibitory potential of small molecules against Histone d
 
 This model was incorporated on 2023-12-14.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos1n4b`
@@ -53,7 +54,7 @@ Below are the **Output Columns** of the model:
 - **Publication**: [https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105](https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2020`
-- **Ersilia Contributor:** [Abellegese](https://github.com/Abellegese)
+- **Ersilia Contributor:** [Richiio](https://github.com/Richiio)
 
 ### License
 This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-only](LICENSE) license.
