@@ -2,8 +2,7 @@
 
 The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3.
 
-This model was incorporated on 2023-12-14.
-
+This model was incorporated on 2023-12-14.Last packaged on 2025-10-10.
 
 ## Information
 ### Identifiers
@@ -42,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `1021`
-- **Image Size (Mb):** `967.54`
+- **Image Size (Mb):** `1002.77`
 
 **Computational Performance (seconds):**
-- 10 inputs: `30.98`
-- 100 inputs: `20.86`
-- 10000 inputs: `293.08`
+- 10 inputs: `27.45`
+- 100 inputs: `17.22`
+- 10000 inputs: `56.57`
 
 ### References
 - **Source Code**: [https://github.com/jwxia2014/HDAC3i-Finder](https://github.com/jwxia2014/HDAC3i-Finder)
