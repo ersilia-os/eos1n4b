@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/jwxia2014/HDAC3i-Finder](https://github.com/jwxia2014/HDAC3i-Finder)
-- **Publication**: [https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105](https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105)
+- **Publication**: [https://doi.org/10.1002/minf.202000105](https://doi.org/10.1002/minf.202000105)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2020`
 - **Ersilia Contributor:** [Richiio](https://github.com/Richiio)
