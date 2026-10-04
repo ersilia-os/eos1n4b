@@ -1,6 +1,6 @@
 # Identifying HDAC3 inhibitors
 
-The model predicts the inhibitory potential of small molecules against Histone deacetylase 3 (HDAC3), a relevant human target for cancer, inflammation, neurodegenerative diseases and diabetes. The authors have used a dataset of 1098 compounds from ChEMBL and validated the model using the benchmark MUBD-HDAC3.
+Screens compounds for inhibition of histone deacetylase 3, a target implicated in cancer, chronic inflammation, neurodegeneration and diabetes but which had not previously been addressed by machine learning. Li and colleagues assembled 1,098 compounds assayed against HDAC3 from ChEMBL and compared several algorithms and descriptor sets before settling on the best-performing combination, released as HDAC3i-Finder. Actives in ChEMBL cluster around explored chemotypes, so the model is most dependable within that chemical territory.
 
 This model was incorporated on 2023-12-14.Last packaged on 2025-10-10.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-12-14.Last packaged on 2025-10-10.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability that the molecule is a HDAC3 inhibitor
+- **Interpretation:** Probability that a compound inhibits histone deacetylase 3.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
