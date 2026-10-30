@@ -39,7 +39,7 @@
     "Contributor": "Richiio",
     "Incorporation Date": "2023-12-14",
     "Last Packaging Date": "2025-10-10",
-    "Release": "v1.0.0",
+    "Release": "v1.0.1",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1n4b",
     "Docker Architecture": [
