@@ -2,7 +2,8 @@
 
 Screens compounds for inhibition of histone deacetylase 3, a target in cancer, chronic inflammation, neurodegeneration and diabetes that no machine learning model had addressed before. Li and colleagues drew 1,098 HDAC3-assayed compounds from ChEMBL, calling anything with IC50 at or below 1 micromolar active, and compared fifteen combinations of five algorithms with Mordred descriptors, MACCS keys and Morgan2 fingerprints. XGBoost on 1024-bit Morgan2 fingerprints won and is the checkpoint served here, benchmarked on the unbiased MUBD-HDAC3 decoy set.
 
-This model was incorporated on 2023-12-14.Last packaged on 2025-10-10.
+This model was incorporated on 2023-12-14.
+Last packaged on 2025-10-10.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos1n4b](https://hub.docker.com/r/ersiliaos/eos1n4b)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1n4b.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos1n4b_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos1n4b_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
